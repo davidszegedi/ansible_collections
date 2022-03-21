@@ -6,8 +6,8 @@
   register: demo_greeting
 
 - name: Print demo greeting content
-      debug:
-        msg: "{{ demo_greeting }}"
+  debug:
+    msg: "{{ demo_greeting }}"
 
 
 #- name: store test in /etc/motd
