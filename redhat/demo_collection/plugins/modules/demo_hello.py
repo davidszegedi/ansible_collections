@@ -44,9 +44,12 @@ from ansible.module_utils.basic import AnsibleModule
 
 
 FACTS = [
-    "MODIFIED HELLO - Hello {name}!",
-    "MODIFIED HELLO - Hello {name}!",
-    "MODIFIED HELLO - Hello {name}!",
+    "Hello {name}!",
+    "Bonjour {name}!",
+    "Hola {name}!",
+    "Ciao {name}!",
+    "Hallo {name}!",
+    "Hei {name}!",
 ]
 
 
