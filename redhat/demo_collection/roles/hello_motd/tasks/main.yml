@@ -5,7 +5,7 @@
     name: "{{ friend_name }}"
   register: demo_greeting
 
-- name: Print demo greeting content - modified collection (v1.0.1)
+- name: Print demo greeting content - modified collection (v1.0.2)
   debug:
     msg: "{{ demo_greeting }}"
 
